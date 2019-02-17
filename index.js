@@ -2,6 +2,7 @@ $(document).ready(function() {
   // Strike through todo when its checkbox is clicked
   $("ul").on("click", "input[type=checkbox]", function(){
      $(this).closest("li").toggleClass("completed-todo")
+     console.log("click li element")
   })
     
   $("#add-new-todo-button").click(function(){
