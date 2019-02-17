@@ -1,7 +1,8 @@
 body{ 
  color: #424242;
  background-color: #ECEFF1;
- font-family: sans-serif;
+ /*font-family: sans-serif;*/
+ font-family: 'Nothing You Could Do', cursive;
 }
 
 h1{
@@ -28,6 +29,8 @@ a{
   border-radius: 5px;
   box-shadow: 1px 1px 1px #90A4AE;
 }
+
+
 
 .pomodoro-estimate{
   font-weight: bold;
@@ -70,4 +73,9 @@ a{
 
 .simple-link:active{
   color: #212121;
+}
+
+
+.colorbutton{
+  background-color: red !important;
 }

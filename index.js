@@ -18,4 +18,15 @@ $(document).ready(function() {
     description.val("")
     pomodoroEstimate.val("")
   })
+  
+  var test=1;
+  $("#edit-todo-button").click(function(){
+    if(test === 1){
+    $("#edit-todo-button").addClass("colorbutton")
+    test=0
+    }else{
+      $("#edit-todo-button").removeClass("colorbutton")
+      test = 1
+    }
+  })
 })
